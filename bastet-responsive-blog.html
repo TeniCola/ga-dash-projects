@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- Live URL: https://dash.generalassemb.ly/TeniCola/build-your-own-blog-theme -->
+
+<head>
+    <title>Lady Bastet || DEITIES Project</title>
+    <link href="/normalize.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Calibri;
+            background: #93DCBB;
+        }
+        header {
+            text-align: center;
+            background: url('https://66.media.tumblr.com/d7f84b162bd5ae37fac8e21f79ba4362/tumblr_inline_pag8omoQLU1qhuwer_1280.png');
+            background-position: center;
+            color: white;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 60px;
+            line-height: 32px;
+        }
+        h2, p {
+            color: #251B1B;
+        }
+        img {
+            max-width: 200px;
+            margin: 40px 0px 0px 0px;
+            border: 5px solid white;
+            border-radius: 100px;
+        }
+        ul {
+            padding: 10px;
+            background: rgba(0,0,0,0.8);
+        }
+        li {
+            display: inline;
+            padding: 0px 10px 0px 10px;
+        }
+        button {
+            border: 0;
+            border-radius: 25px;
+            padding: 5px 10px;
+            background: #62A988;
+            margin-bottom: 20px;
+        }
+        article {
+            max-width: 540px;
+            padding: 15px;
+            margin: 15px auto;
+            background: rgba(255,255,255,0.4);
+        }
+
+        @media (max-width: 580px) {
+            header {
+                background-size: cover;
+            }
+            img {
+                margin: 20px 0px 0px 0px;
+            }
+            h1 {
+                font-size: 45px;
+                line-height: 15px;
+            }
+            h2, p {
+                text-align: center;
+            }
+            button {
+                min-width: 270px;
+                text-align: center;
+                margin: 0 auto 20px auto;
+            }
+            li {
+                font-size: 20px;
+                padding: 5px;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://pbs.twimg.com/profile_images/811417684940230656/j-BTj23b_400x400.jpg">
+        <h1>Bastet's Blog</h1>
+        <ul>
+        <li><a href="https://deitiesofduat.tumblr.com/characters">About The Goddess</a></li>
+        <li><a href="https://open.spotify.com/playlist/1t7JuUM8hTM7Rn0VfoidNv">Music Collection</a></li>
+        <li><a href="https://deitiesofduat.tumblr.com/tagged/DEITIES-fanwork">Favorite Offerings</a></li>
+        <li><a href="https://deitiesofduat.tumblr.com/tagged/cat">Cat Photos</a></li>
+        </ul>
+    </header>
+
+    <article>
+        <h2>About The Goddess</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+        <button>Read More >></button>
+    </article>
+
+    <article>
+        <h2>Music Collection</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+        <button>Read More >></button>
+    </article>
+
+    <article>
+        <h2>Favorite Offerings</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+        <button>Read More >></button>
+    </article>
+
+    <article>
+        <h2>Cat Photos</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+        <button>Read More >></button>
+    </article>
+    <script>
+        $("button").on("click", function() {
+        alert("Oh neat, this button does work! Now to just add a link with content...");
+        });
+    </script>
+</body>
